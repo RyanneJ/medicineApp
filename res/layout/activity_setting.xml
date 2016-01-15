@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+    
+    <TextView
+            android:id="@+id/textSettingsNaam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="@color/white" 
+            />
+    
+    <EditText 
+        	android:id="@+id/editSettingsNaam"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" />
+    
+     <RelativeLayout
+		    android:layout_width="fill_parent"
+		  	android:layout_height="wrap_content"   
+		   	android:orientation="horizontal" >
+	    <Button 
+	        	android:id="@+id/editsavename"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_alignParentRight="true"
+	        	android:text="Verander naam"/> 
+	</RelativeLayout>
+    
+    <TextView
+            android:id="@+id/textSettingsGeboorte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/geboorte"
+            android:textColor="@color/white" />
+    
+
+    <TextView 
+        	android:id="@+id/geboorte"
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+        	/>
+
+    <RelativeLayout
+		    android:layout_width="fill_parent"
+		  	android:layout_height="wrap_content"   
+		   	android:orientation="horizontal" >
+	    <Button
+	        android:id="@+id/btnChangeDate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:text="Change Date" />
+	</RelativeLayout>
+
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:text="" android:id="@+id/tvDate" 
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="@color/white"/>
+    
+    <TextView
+            android:id="@+id/textSettingsAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alarm"
+            android:textColor="@color/white"
+             />
+    
+    <TextView
+        android:id="@+id/textAlarmNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/white" />
+
+       <RelativeLayout
+		    android:layout_width="fill_parent"
+		  	android:layout_height="wrap_content"   
+		   	android:orientation="horizontal" >
+    <Button
+        android:id="@+id/buttonSettingsChangeAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/butVeranderAlarm" />
+    </RelativeLayout>
+
+</LinearLayout>

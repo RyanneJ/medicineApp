@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="listHelloUser">Hallo </string>
+    <string name="listExplanation">Vul iedere dag het formulier in</string>
+    <string name="date">Datum:</string>
+    <string name="listMedicineName">Ritalin</string>
+    <string name="with">met</string>
+    <string name="without">zonder</string>
+    <string name="Gespannen">Gespannen:</string>
+    <string name="distraction">Snel afgeleid:</string>
+    <string name="mood">Stemmingswisselingen:</string>
+    <string name="finishThings">Dingen niet afmaken</string>
+    <string name="forgetfullness">Vergeetachtigheid, chaotisch:</string>
+    <string name="irritability">Prikkelbaar, snel geirriteerd:</string>
+    <string name="aggresive">Fysiek agressief:</string>
+    <string name="impulse">Dingen eruit flappen, impulsief handelen:</string>
+    <string name="unrest">Onrustig, friemelen, niet stil kunnen zitten:</string>
+    <string name="sideEffects">Bijwerkingen van Ritalin</string>
+    <string name="heartwork">Hartkloppingen:</string>
+    <string name="sleeping">Moeite met inslapen:</string>
+    <string name="eating">Te weinig eetlust:</string>
+    <string name="tiredness">Moe:</string>
+    <string name="nervousness">Nerveus:</string>
+    <string name="headache">Hoofdpijn:</string>
+    <string name="opslaan">Opslaan</string>
+    <string name="name">Naam:</string>
+    <string name="geboorte">Geboortedatum:</string>
+    <string name="alarm">Kies de tijd waarop u herinnert wilt worden:</string>
+    <string name="uitlegApp"> Dit komt schijnbaar nog.</string>
+    <string name="maker">Created by Ryanne Jansen, Lucas Bonsel. All rights are reserved. Do not adapt the code or use without permission.</string>
+    <string name="versie">Versie: 1.0</string>
+    <string name="settings">Settings</string>
+    <string name="helpMe">Help</string>
+    <string name="list">Fill in te list</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">LucasMedicine</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="welcome">Welcome user. Before you begin please ill in this quick form.</string>
+    <string name="edit">Edit</string>
+    <string name="butVeranderAlarm">Verander alarm</string>
+
+</resources>

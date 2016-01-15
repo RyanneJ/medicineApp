@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textListWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listHelloUser"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white" />
+
+
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+	        <TextView
+	            android:id="@+id/textListDate"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/date"
+	            android:textColor="@color/white" />
+
+	        <TextView 
+	             android:id="@+id/textListToday"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/date"
+	            android:textColor="@color/white" />
+	        
+	     </LinearLayout>
+	     
+        
+         <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+		        <TextView
+		            android:id="@+id/textListQuestion1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/Gespannen"
+		            android:textColor="@color/white" />
+		
+		        <EditText 
+		            android:id="@+id/editListQuestion1"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:inputType="number" 
+		            android:textColor="@color/white"/>
+		        
+		 </LinearLayout>
+
+         <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        <TextView
+	            android:id="@+id/textListQuestion2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/distraction"
+	            android:textColor="@color/white" />
+	
+	        <EditText 
+		            android:id="@+id/editListQuestion2"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:inputType="number"
+		            android:textColor="@color/white" />
+		  </LinearLayout>
+		  
+          <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+	        <TextView
+	            android:id="@+id/textListQuestion3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/mood"
+	            android:textColor="@color/white" />
+	
+	        <EditText 
+			            android:id="@+id/editListQuestion3"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number"
+			            android:textColor="@color/white"  />
+	      </LinearLayout>
+	      
+          <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textListQuestion4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/finishThings"
+	            android:textColor="@color/white" />
+	
+	        <EditText 
+			            android:id="@+id/editListQuestion4"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number"
+			            android:textColor="@color/white" />
+	      </LinearLayout>
+
+          <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+	        <TextView
+	            android:id="@+id/textListQuestion5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/distraction"
+	            android:textColor="@color/white" />
+	
+	        <EditText 
+			            android:id="@+id/editListQuestion5"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number" 
+			            android:textColor="@color/white" />
+	      </LinearLayout>
+	      
+          <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        <TextView
+	            android:id="@+id/textListQuestion6"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/forgetfullness"
+	            android:textColor="@color/white" />
+	
+	        <EditText 
+			            android:id="@+id/editListQuestion6"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number"
+			            android:textColor="@color/white"  />
+	      
+	     </LinearLayout>
+	     
+         <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textListQuestion7"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/irritability"
+	            android:textColor="@color/white" />
+	
+	        <EditText 
+			            android:id="@+id/editListQuestion7"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number" 
+			            android:textColor="@color/white" />
+	        
+	     </LinearLayout>
+	     
+         <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textListQuestion8"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/aggresive"
+	            android:textColor="@color/white" />
+	
+	        <EditText 
+			            android:id="@+id/editListQuestion8"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number"
+						android:textColor="@color/white" />
+	     </LinearLayout>
+	     
+         <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textListQuestion9"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/impulse"
+	            android:textColor="@color/white" />
+	
+	       <EditText 
+			            android:id="@+id/editListQuestion9"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number" 
+			            android:textColor="@color/white" />
+	       
+	    </LinearLayout>
+	    
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textListQuestion10"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/unrest"
+	            android:textColor="@color/white" />
+	
+	        <EditText 
+			            android:id="@+id/editListQuestion10"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number" 
+			            android:textColor="@color/white" />
+	    </LinearLayout>
+
+        <!-- hier begint side effects van ritalin -->
+
+        <TextView
+            android:id="@+id/sideEffects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sideEffects"
+            android:textColor="@color/white" />
+        
+        
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textListQuestion11"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/heartwork"
+	            android:textColor="@color/white" />
+	 
+	 		<EditText 
+			            android:id="@+id/editListQuestion11"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number" 
+			            android:textColor="@color/white"/>
+	 		
+	 	</LinearLayout>
+	 	
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textListQuestion12"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/sleeping"
+	            android:textColor="@color/white" />
+	
+	        <EditText 
+			            android:id="@+id/editListQuestion12"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number"
+			            android:textColor="@color/white" />
+	    
+	    </LinearLayout>
+	    
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textListQuestion13"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/eating"
+	            android:textColor="@color/white" />
+	
+	        <EditText 
+			            android:id="@+id/editListQuestion13"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number"
+			            android:textColor="@color/white" />
+	        
+	    </LinearLayout>
+	    
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textListQuestion14"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tiredness"
+	            android:textColor="@color/white" />
+	
+	        <EditText 
+			            android:id="@+id/editListQuestion14"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number"
+			            android:textColor="@color/white"/>
+	    </LinearLayout>
+	    
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textListQuestion15"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/nervousness"
+	            android:textColor="@color/white"
+	             />
+	
+	        <EditText 
+			            android:id="@+id/editListQuestion15"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number"  
+			            android:textColor="@color/white" />
+	    </LinearLayout>
+	    
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+	        <TextView
+	            android:id="@+id/textListQuestion16"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/headache"
+	            android:textColor="@color/white" />
+	        
+	        <EditText 
+			            android:id="@+id/editListQuestion16"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:inputType="number"
+			            android:textColor="@color/white" />
+	    </LinearLayout>
+        
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+	        <Button
+	            android:id="@+id/buttonListSave"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/opslaan" />
+	        
+        
+        </LinearLayout>
+  </LinearLayout>
+</ScrollView>
